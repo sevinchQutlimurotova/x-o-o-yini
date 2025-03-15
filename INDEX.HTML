@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            margin: 0px;
+            background-color: rgba(0, 145, 255, 0.511);
+
+        }
+
+        .doira {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+
+
+        }
+
+        .shakl {
+            width: 100px;
+            height: 600px;
+            margin-left: 300px;
+            background-color: black;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .shakl2 {
+            width: 100px;
+            height: 100%;
+            margin-left: 300px;
+            margin-top: 750px;
+            background-color: black;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .shakl3 {
+            width: 100px;
+            height: 750px;
+            margin-left: 600px;
+            background-color: black;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .shakl4 {
+            width: 100px;
+            height: 100%;
+            margin-left: 600px;
+            margin-top: 900px;
+            background-color: black;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .shakl5 {
+            width: 100px;
+            height: 600px;
+            margin-left: 900px;
+            background-color: black;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .shakl6 {
+            width: 100px;
+            height: 100%;
+            margin-left: 900px;
+            margin-top: 750px;
+            background-color: black;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .shakl7 {
+            width: 100px;
+            height: 750px;
+            margin-left: 1200px;
+            background-color: black;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .shakl8 {
+            width: 100px;
+            height: 100%;
+            margin-left: 1200px;
+            margin-top: 900px;
+            background-color: black;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .shakl9 {
+            width: 100px;
+            height: 600px;
+            margin-left: 1500px;
+            background-color: black;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .shakl10 {
+            width: 100px;
+            height: 100%;
+            margin-left: 1500px;
+            margin-top: 750px;
+            background-color: black;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .shakl11 {
+            width: 100px;
+            height: 800px;
+            margin-left: 1800px;
+            background-color: black;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .shakl12 {
+            width: 100px;
+            height: 100%;
+            margin-left: 1800px;
+            margin-top: 950px;
+            background-color: black;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .shakl13 {
+            width: 100px;
+            height: 600px;
+            margin-left: 1800px;
+            background-color: black;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .shakl14 {
+            width: 100px;
+            height: 100%;
+            margin-left: 2100px;
+            margin-top: 750px;
+            background-color: black;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .shakl15 {
+            width: 100px;
+            height: 800px;
+            margin-left: 2200px;
+            background-color: black;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .shakl16 {
+            width: 100px;
+            height: 100%;
+            margin-left: 2500px;
+            margin-top: 950px;
+            background-color: black;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .shakl17 {
+            width: 100px;
+            height: 600px;
+            margin-left: 2200px;
+            background-color: black;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .shakl18 {
+            width: 100px;
+            height: 100%;
+            margin-left: 2500px;
+            margin-top: 750px;
+            background-color: black;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .shakl19 {
+            width: 100px;
+            height: 800px;
+            margin-left: 2200px;
+            background-color: black;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .shakl20 {
+            width: 100px;
+            height: 100%;
+            margin-left: 2500px;
+            margin-top: 950px;
+            background-color: black;
+            position: absolute;
+            z-index: -1;
+        }
+
+        @keyframes doira {
+            1% {
+                width: 0px;
+                height: 0px;
+
+            }
+
+            100% {
+                width: 0px;
+                height: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body id="body">
+    <div class="doira"></div>
+    <div class="shakl"></div>
+    <div class="shakl2"></div>
+    <div class="shakl3"></div>
+    <div class="shakl4"></div>
+    <div class="shakl5"></div>
+    <div class="shakl6"></div>
+    <div class="shakl7"></div>
+    <div class="shakl8"></div>
+    <div class="shakl9"></div>
+    <div class="shakl10"></div>
+    <div class="shakl11"></div>
+    <div class="shakl12"></div>
+    <div class="shakl13"></div>
+    <div class="shakl14"></div>
+    <div class="shakl15"></div>
+    <div class="shakl16"></div>
+    <div class="shakl17"></div>
+    <div class="shakl18"></div>
+    <div class="shakl19"></div>
+    <div class="shakl20"></div>
+
+    <script>
+
+
+
+        setInterval(ishla, 1)
+        marginUzgar = 0
+        marginUzgar2 = 0
+        marginUzgar3 = 0
+        marginUzgar4 = 0
+        marginUzgar5 = 0
+        marginUzgar6 = 0
+        marginUzgar7 = 0
+        marginUzgar8 = 0
+        marginUzgar9 = 0
+        marginUzgar10 = 0
+        marginUzgar11 = 0
+        marginUzgar12 = 0
+        marginUzgar13 = 0
+        marginUzgar14 = 0
+        marginUzgar15 = 0
+        marginUzgar16 = 0
+        marginUzgar17 = 0
+        marginUzgar18 = 0
+        marginUzgar19 = 0
+        marginUzgar20 = 0
+
+        let shakl = document.getElementsByClassName("shakl")[0]
+        let shakl2 = document.getElementsByClassName("shakl2")[0]
+        let shakl3 = document.getElementsByClassName("shakl3")[0]
+        let shakl4 = document.getElementsByClassName("shakl4")[0]
+        let shakl5 = document.getElementsByClassName("shakl5")[0]
+        let shakl6 = document.getElementsByClassName("shakl6")[0]
+        let shakl7 = document.getElementsByClassName("shakl7")[0]
+        let shakl8 = document.getElementsByClassName("shakl8")[0]
+        let shakl9 = document.getElementsByClassName("shakl9")[0]
+        let shakl10 = document.getElementsByClassName("shakl10")[0]
+        let shakl11 = document.getElementsByClassName("shakl11")[0]
+        let shakl12 = document.getElementsByClassName("shakl12")[0]
+        let shakl13 = document.getElementsByClassName("shakl13")[0]
+        let shakl14 = document.getElementsByClassName("shakl14")[0]
+        let shakl15 = document.getElementsByClassName("shakl15")[0]
+        let shakl16 = document.getElementsByClassName("shakl16")[0]
+        let shakl17 = document.getElementsByClassName("shakl17")[0]
+        let shakl18 = document.getElementsByClassName("shakl18")[0]
+        let shakl19 = document.getElementsByClassName("shakl19")[0]
+        let shakl20 = document.getElementsByClassName("shakl20")[0]
+
+        function ishla() {
+            marginUzgar += -1
+            marginUzgar2 += -1
+            marginUzgar3 += -1
+            marginUzgar4 += -1
+            marginUzgar5 += -1
+            marginUzgar6 += -1
+            marginUzgar7 += -1
+            marginUzgar8 += -1
+            marginUzgar9 += -1
+            marginUzgar10 += -1
+            marginUzgar11 += -1
+            marginUzgar12 += -1
+            marginUzgar13 += -1
+            marginUzgar14 += -1
+            marginUzgar15 += -1
+            marginUzgar16 += -1
+            marginUzgar17 += -1
+            marginUzgar18 += -1
+            marginUzgar19 += -1
+            marginUzgar20 += -1
+
+
+            shakl.style.marginLeft = 600 + marginUzgar + "px"
+            shakl2.style.marginLeft = 600 + marginUzgar + "px"
+            shakl3.style.marginLeft = 900 + marginUzgar2 + "px"
+            shakl4.style.marginLeft = 900 + marginUzgar2 + "px"
+            shakl5.style.marginLeft = 1200 + marginUzgar3 + "px"
+            shakl6.style.marginLeft = 1200 + marginUzgar3 + "px"
+            shakl7.style.marginLeft = 1500 + marginUzgar4 + "px"
+            shakl8.style.marginLeft = 1500 + marginUzgar4 + "px"
+            shakl9.style.marginLeft = 1800 + marginUzgar5 + "px"
+            shakl10.style.marginLeft = 1800 + marginUzgar5 + "px"
+            shakl11.style.marginLeft = 2100 + marginUzgar5 + "px"
+            shakl12.style.marginLeft = 2100 + marginUzgar5 + "px"
+            shakl13.style.marginLeft = 2400 + marginUzgar6 + "px"
+            shakl14.style.marginLeft = 2400 + marginUzgar6 + "px"
+            shakl15.style.marginLeft = 2700 + marginUzgar7 + "px"
+            shakl16.style.marginLeft = 2700 + marginUzgar7 + "px"
+            shakl17.style.marginLeft = 3000 + marginUzgar8 + "px"
+            shakl18.style.marginLeft = 3000 + marginUzgar8 + "px"
+            shakl19.style.marginLeft = 3300 + marginUzgar9 + "px"
+            shakl20.style.marginLeft = 3300 + marginUzgar9 + "px"
+
+
+            if (marginUzgar2 == -1200) {
+                marginUzgar2 = 2500
+            }
+            if (marginUzgar3 == -1500) {
+                marginUzgar3 = 2200
+            }
+            if (marginUzgar4 == -1800) {
+                marginUzgar4 = 1900
+            }
+            if (marginUzgar5 == -2100) {
+                marginUzgar5 = 1700
+            }
+            if (marginUzgar6 == -2400) {
+                marginUzgar6 = 1500
+            }
+            if (marginUzgar7 == -2700) {
+                marginUzgar7 = 1500
+            }
+            if (marginUzgar8 == -3000) {
+                marginUzgar8 = 1500
+            }
+            if (marginUzgar9 == -3300) {
+                marginUzgar9 = 1500
+            }
+            if (marginUzgar10 == -3600) {
+                marginUzgar10 = 1200
+            }
+            if (marginUzgar11 == -3900) {
+                marginUzgar11 = 1200
+            }
+            if (marginUzgar12 == -3900) {
+                marginUzgar12 = 1200
+            }
+            if (marginUzgar13 == -4200) {
+                marginUzgar13 = 1500
+            }
+            if (marginUzgar14 == -4500) {
+                marginUzgar14 = 1500
+            }
+            if (marginUzgar15 == -4800) {
+                marginUzgar15 = 1500
+            }
+            if (marginUzgar16 == -5100) {
+                marginUzgar16 = 1500
+            }
+            if (marginUzgar17 == -5400) {
+                marginUzgar17 = 1500
+            }
+            if (marginUzgar18 == -5700) {
+                marginUzgar18 = 3000
+            }
+            if (marginUzgar19 == -6000) {
+                marginUzgar19 = 3000
+            }
+            if (marginUzgar20 == -6300) {
+                marginUzgar20 = 3000
+            }
+            if (marginUzgar >= 1500) {
+                marginUzgar = 0
+            }
+
+        }
+
+
+
+        document.onmousemove = function (e) {
+
+            var x = e.clientX
+            var y = e.clientY
+            let koptok = document.getElementsByClassName("doira")[0]
+            koptok.style.marginLeft = x - 25 + "px"
+            koptok.style.marginTop = y - 25 + "px"
+            koptok.style.position = "absolute"
+            koptok.style.zIndex = "1"
+
+            let body = document.getElementById('body')
+            body.style.overflow = "hidden"
+            body.style.backgroundColor = "rgba(0, 145, 255, 0.511)"
+            if (tekshirish(580,625,725)) {
+                // body.style.backgroundColor = "red"
+                /*koptok.style.width = '0px'
+                koptok.style.height = '0px'
+                koptok.style.transition = '1s'*/
+
+                koptok.style.animation = 'doira 100s'
+                koptok.style.animationTCount = '1'
+                // koptok.style.transition = '1s'
+                console.log('salom')
+
+
+            }
+            else if (tekshirish(580,727,725)) {
+                // body.style.backgroundColor = "red"
+                koptok.style.animation = 'doira 100s'
+                koptok.style.animationTCount = '1'
+                console.log('salom')
+            }
+            else if (tekshirish(575,775,725)) {
+                // body.style.backgroundColor = "red"
+                koptok.style.animation = 'doira 100s'
+                koptok.style.animationTCount = '1'
+                console.log('salom')
+            }
+            else if (x >= 575 && y >= 877 && x <= 725) {
+                // body.style.backgroundColor = "red"
+                koptok.style.animation = 'doira 100s'
+                koptok.style.animationTCount = '1'
+            }
+            else if (x >= 880 && y >= 730 && x <= 1025) {
+                // body.style.backgroundColor = "red"
+                koptok.style.animation = 'doira 100s'
+                koptok.style.animationTCount = '1'
+            }
+            else if (x >= 875 && y <= 625 && x <= 1025) {
+                // body.style.backgroundColor = "red"
+                koptok.style.animation = 'doira 100s'
+                koptok.style.animationTCount = '1'
+            }
+            else if (x >= 1180 && y <= 770 && x <= 1325) {
+                // body.style.backgroundColor = "red"
+                koptok.style.animation = 'doira 100s'
+                koptok.style.animationTCount = '1'
+            }
+            else if (x >= 1180 && y >= 877 && x <= 1325) {
+                // body.style.backgroundColor = "red"
+                koptok.style.animation = 'doira 100s'
+                koptok.style.animationTCount = '1'
+            }
+            else if (x >= 1475 && y >= 730 && x <= 1625) {
+                // body.style.backgroundColor = "red"
+                koptok.style.animation = 'doira 100s'
+                koptok.style.animationTCount = '1'
+            }
+            else if (x >= 1475 && y <= 623 && x <= 1625) {
+                // body.style.backgroundColor = "red"
+                koptok.style.animation = 'doira 100s'
+                koptok.style.animationTCount = '1'
+            }
+            else {
+                body.style.backgroundColor = "rgba(0, 145, 255, 0.511)"
+                koptok.style.width = '50px'
+                koptok.style.height = '50px'
+                koptok.style.transition = 'none'
+                koptok.style.animation = 'none'
+            }
+
+            let div = document.getElementById('shakl')
+            if (x >= 580 && y <= 727 && x <= 725) {
+            }
+            function tekshirish(a,b,c){
+                return x - marginUzgar>= a && y <= b && x -marginUzgar <= c
+            }
+
+        }
+
+        
+
+    </script>
+</body>
+
+</html>
